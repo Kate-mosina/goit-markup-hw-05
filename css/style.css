@@ -772,8 +772,9 @@ p.footer-text {
 
   color: #ffffff;
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 2;
   letter-spacing: 0.04em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .footer-subscribe-input::placeholder {
@@ -801,6 +802,7 @@ p.footer-text {
 
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  min-width: 165px;
 }
 
 .footer-subscribe-btn:hover,
