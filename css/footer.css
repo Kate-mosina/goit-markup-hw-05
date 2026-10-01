@@ -120,16 +120,20 @@ p.footer-text {
   border: 1px solid #ffffff;
   border-radius: 4px;
   background-color: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   color: #ffffff;
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .footer-subscribe-input::placeholder {
   color: #ffffff;
+}
+.footer-subscribe-input:focus {
+  border-color: #31d0aa;
 }
 
 .footer-subscribe-btn {
@@ -158,7 +162,7 @@ p.footer-text {
 
 .footer-subscribe-btn:hover,
 .footer-subscribe-btn:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .footer-subscribe-icon {
